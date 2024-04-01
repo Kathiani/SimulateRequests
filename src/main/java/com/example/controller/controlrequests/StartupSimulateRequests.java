@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StartupDataRequests {
+public class StartupSimulateRequests {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StartupDataRequests.class, args);
+		SpringApplication.run(StartupSimulateRequests.class, args);
 	}
 
 }
