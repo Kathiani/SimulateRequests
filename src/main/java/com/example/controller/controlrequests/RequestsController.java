@@ -17,7 +17,7 @@ public class RequestsController{
         RestTemplate restTemplate = new RestTemplate();
         String endpointValida = "http://localhost:8080/midval/search-validate";  // para uso: plataforma define um endpoint de validação com acesso ao midval ex: http://10.10.10.104:8000/collector/valid_resources_data
         String responseValidData = restTemplate.getForObject(endpointValida, String.class);
-        return "A situação do dado é: " + responseValidData; 
+        return responseValidData; 
     
     }
 
